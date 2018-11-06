@@ -1,0 +1,54 @@
+# Contents
+
+- [Type system](#type-system)
+  - [Structural vs nominal typing](#structural-typing)
+  - [Type inference](#type-inference)
+  - [Type annotations](#type-annotations)
+  - [Primitive types](#primitive-types)
+    - `boolean`
+    - `number`
+    - `string`
+    - `Array`
+    - `object`
+    - `Function`
+    - `Symbol`
+  - [Special types](#special-types)
+    - `undefined` 🐲
+    - `null` 🐲
+    - `any` 🐲
+    - `unknown`
+    - `void`
+    - `never`
+  - [Generics](#generics)
+    - Default type arguments
+    - Type argument constraints
+  - [Union types](#union-types)
+  - [Intersection types](#intersection-types)
+  - [`class` vs `type` vs `interface`](#class-type-interface)
+  - [`enum` vs string literal](#enum-string-literal)
+    - Gotchas
+  - [Function overloading](#function-overloading)
+  - [Mapped types](#mapped-types)
+    - `keyof T`
+  - [Conditional types](#conditional-types)
+  - [Type narrowing](#type-narrowing)
+    - Control flow analysis
+    - DIY narrowing functions
+    - Discriminated unions
+  - [Type widening 🐲](#type-widening)
+  - [Type assertions 🐲](#type-assertions)
+- [Ambient declarations](#ambient-declarations)
+  - [`@types/<lib>`](#types-lib)
+  - [Creating declarations for external libraries](#creating-declarations)
+    - Handy trick
+- [Compiler options](#compiler-options)
+  - [`noImplicitAny`](#no-implicit-any)
+  - [`strictNullChecks`](#strict-null-checks)
+  - `strict`
+- [What's new in TypeScript](#whats-new)
+  - 2.7
+  - 2.8
+  - 2.9
+  - 3.0
+  - 3.1
+- [Links](#links)

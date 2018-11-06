@@ -1,0 +1,13 @@
+{
+  "name": "typescript-overview",
+  "version": "1.0.0",
+  "author": "Benjamin Lowry <bplowry@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^3.1.5"
+  },
+  "dependencies": {
+    "luxon": "^1.5.0"
+  }
+}
